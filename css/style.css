@@ -1,0 +1,1029 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.header {
+    border-bottom: 1px solid rgb(184, 182, 182);
+}
+
+
+/*Start navigation*/
+
+.navbar .navbar-nav {
+    background-color: #0D1326;
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+    padding: 15px;
+}
+
+.navbar .nav-item:hover {
+    background-color: grey;
+    text-shadow: 1px 1px 1px grey;
+    transition: 0.5s;
+    box-shadow: 2px 2px 10px black;
+}
+
+.navbar img {
+    width: 75%;
+}
+
+.become {
+    padding: 15px;
+}
+
+
+/*End navigation*/
+
+
+/*Start slidershow*/
+
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    font-size: 440%;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h2 {
+    font-size: 225%;
+}
+
+
+/*End slidershow*/
+
+
+/*Start flooring*/
+
+.flooring .title h2 {
+    font-size: 25.5px;
+    font-weight: bold;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.flooring .title .line {
+    margin: 10px auto;
+    width: 5%;
+    border: 1px solid black;
+    background-color: #000;
+}
+
+.flooring .title p {
+    font-size: 17.5px;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.flooring .row .col {
+    opacity: 1;
+}
+
+.flooring .row .col:hover img {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.flooring .row .col:hover .btn {
+    opacity: 1;
+}
+
+.flooring .row .col img {
+    width: 100%;
+}
+
+.flooring .distance,
+.products .distance,
+.testimonials .distance,
+.gallery .distance,
+.brands .distance {
+    margin: 0 auto;
+    width: 85%;
+}
+
+
+/*End flooring*/
+
+
+/*Start products*/
+
+.products .title h2 {
+    font-size: 25.5px;
+    font-weight: bold;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.products .title .line {
+    margin: 10px auto;
+    width: 5%;
+    border: 1px solid black;
+    background-color: #000;
+}
+
+.products .title p {
+    font-size: 17.5px;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.products .row .img-box {
+    position: relative;
+    opacity: 1;
+}
+
+.products .row .img-box:hover img {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.products .row .img-box:hover .btn {
+    opacity: 1;
+}
+
+.products .row .img-box .btn {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 30%;
+    font-size: 70%;
+}
+
+.products .row p {
+    font-weight: bold;
+}
+
+.products .row .carousel .fas {
+    color: #9e9e9e;
+    padding: 7px 10px;
+    border: 2px solid #9e9e9e;
+    border-radius: 55%;
+}
+
+
+/*End product*/
+
+
+/*Start sale*/
+
+.sale {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/layout_cta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.sale h2 {
+    font-size: 25.5px;
+    font-weight: bold;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.sale .line {
+    margin: 10px auto 20px;
+    width: 5%;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.sale p {
+    font-size: 17.5px;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.sale .btn {
+    display: block;
+    margin: 40px auto;
+}
+
+
+/*End sale*/
+
+
+/*Start gallery*/
+
+.gallery>.title h2 {
+    font-size: 25.5px;
+    font-weight: bold;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.gallery>.title .line {
+    margin: 10px auto 20px;
+    width: 5%;
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+.gallery>.title p {
+    font-size: 17.5px;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.gallery>.row .image {
+    width: 100%;
+}
+
+.gallery>.row .title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.gallery>.row .title h4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.gallery>.row .title p {
+    font-size: 16px;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.gallery>.row .title .btn {
+    display: block;
+    margin: 20px auto;
+    font-size: 13px;
+}
+
+
+/*End gallery*/
+
+
+/*Start testimonials*/
+
+.testimonials .title h2 {
+    font-size: 25.5px;
+    font-weight: bold;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.testimonials .title .line {
+    margin: 10px auto;
+    width: 5%;
+    border: 1px solid black;
+    background-color: #000;
+}
+
+.testimonials .information {
+    background-color: #fbfbfb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.testimonials .information .avatar img {
+    display: block;
+    margin: 30px auto;
+}
+
+.testimonials .row .information p {
+    width: 75%;
+    font-size: 16px;
+    display: block;
+    margin: auto;
+}
+
+.testimonials h5 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.testimonials h6 {
+    color: #b5bfc6;
+    padding-bottom: 30px;
+}
+
+.testimonials .distance .left p:last-child {
+    color: #b5bfc6;
+}
+
+.testimonials .distance .right p:last-child {
+    color: #b5bfc6;
+}
+
+.testimonials a[role=button] .carousel-control-prev-icon,
+.testimonials a[role=button] .carousel-control-next-icon {
+    background-color: gray;
+    position: absolute;
+    top: 46%;
+    border-radius: 50%;
+    border: 2px solid gray;
+    padding: 10px;
+}
+
+.testimonials a[role=button] .carousel-control-prev-icon {
+    left: 20px;
+}
+
+.testimonials a[role=button] .carousel-control-next-icon {
+    right: 20px;
+}
+
+
+/*End testimonials*/
+
+
+/*Start shopping*/
+
+.shopping {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/layout_cta2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.shopping h2 {
+    font-size: 25.5px;
+    font-weight: bold;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.shopping .line {
+    margin: 10px auto;
+    width: 5%;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.shopping p {
+    font-size: 17.5px;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.shopping .btn {
+    display: block;
+    margin: 40px auto;
+}
+
+
+/*End shopping*/
+
+
+/*Start brands*/
+
+.brands .title h2 {
+    font-size: 25.5px;
+    font-weight: bold;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+.brands .title .line {
+    margin: 10px auto;
+    width: 5%;
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+.brands .title p {
+    font-size: 17.5px;
+    font-family: 'AvenirNext', sans-serif;
+}
+
+
+/*End brands*/
+
+
+/*Start footer*/
+
+.footer {
+    margin-top: 50px;
+    background-color: #212121;
+    padding-bottom: 50px;
+}
+
+.footer .distance {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.footer .title-footer h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 40px;
+    margin-bottom: 35px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer a:hover {
+    color: aqua;
+}
+
+.footer .title-footer h5:hover {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.list-group li {
+    list-style: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 7px;
+}
+
+.icon-location,
+.icon-mail,
+.icon-phone {
+    display: flex;
+}
+
+.icon-location i,
+.icon-mail i,
+.icon-phone i {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.footer .title-newsletter h5 {
+    font-size: 16px;
+    font-weight: 100;
+    color: #ffffff;
+    padding-top: 36px;
+    margin-bottom: 35px;
+}
+
+.footer .title-newsletter h5:hover {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.footer form {
+    position: relative;
+}
+
+.footer form input {
+    width: 100%;
+    background-color: #f6f6f6;
+    height: 40px;
+    border: none;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.footer form i {
+    position: absolute;
+    top: 25%;
+    left: 91%;
+    color: #b4b4b4;
+}
+
+.footer .icon-social {
+    padding-top: 25px;
+}
+
+.footer .icon-social a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 2px;
+    position: relative;
+    z-index: 1;
+    font-size: 30px;
+}
+
+.footer .icon-social a i:hover {
+    cursor: pointer;
+    color: #3b5998;
+}
+
+.footer .payment {
+    padding-top: 25px;
+}
+
+.footer .payment a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 2px;
+    position: relative;
+    z-index: 1;
+    font-size: 30px;
+}
+
+
+/*End footer*/
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media only screen and (max-width: 575.98px) {
+    .header {
+        display: none !important;
+    }
+    .navbar img {
+        width: 70%;
+    }
+    .become {
+        display: none;
+    }
+    .carousel img {
+        margin-top: 10px;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption {
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        right: 15%;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 125%;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+        font-size: 60%;
+    }
+    .flooring .title h2 {
+        font-size: 20px;
+    }
+    .flooring .title .line {
+        width: 15%;
+    }
+    .flooring .title p {
+        font-size: 14.5px;
+    }
+    .flooring .row .col {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .flooring .row .col:last-child {
+        margin-bottom: 0%;
+    }
+    .flooring .row .col .btn {
+        position: absolute;
+        top: 50%;
+        left: 23%;
+        width: 50%;
+        font-size: 50%;
+    }
+    .products .title h2 {
+        font-size: 20px;
+    }
+    .products .title .line {
+        width: 15%;
+    }
+    .products .row .img-box {
+        position: relative;
+    }
+    .products .row .img-box>.btn {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        right: 25%;
+    }
+    .products .row .thumb-wrapper p {
+        font-size: 70%;
+    }
+    .sale h2 {
+        font-size: 20px;
+    }
+    .sale .line {
+        width: 15%;
+    }
+    .sale p {
+        font-size: 14.5px;
+    }
+    .sale button {
+        font-size: 60%;
+    }
+    .gallery .title h2 {
+        font-size: 20px;
+    }
+    .gallery .title .line {
+        width: 15%;
+    }
+    .gallery .title p {
+        font-size: 14.5px;
+    }
+    .gallery .row .col {
+        margin-bottom: 10px;
+    }
+    .gallery .row .col:last-child {
+        margin-bottom: 0%;
+    }
+    .gallery .row .col .title p {
+        font-size: 15px;
+    }
+    .gallery .row .col .title button {
+        font-size: 45%;
+    }
+    .testimonials .title h2 {
+        font-size: 20px;
+    }
+    .testimonials .title .line {
+        width: 15%;
+    }
+    .testimonials .carousel .distance .information p {
+        font-size: 14.5px;
+    }
+    .shopping h2 {
+        font-size: 20px;
+    }
+    .shopping .line {
+        width: 15%;
+    }
+    .shopping p {
+        font-size: 14.5px;
+    }
+    .shopping button {
+        font-size: 60%;
+    }
+    .brands .title h2 {
+        font-size: 20px;
+    }
+    .brands .title .line {
+        width: 15%;
+    }
+    .brands .title p {
+        font-size: 14.5px;
+    }
+    .brands .container img {
+        width: 100%;
+    }
+    .footer .icon-social a {
+        font-size: 16px;
+    }
+    .footer .payment a {
+        font-size: 16px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media only screen and (min-width:576px) and (max-width: 767.98px) {
+    .header {
+        display: none !important;
+    }
+    .logo img {
+        display: block;
+        margin: 0 auto;
+    }
+    .become {
+        display: none;
+    }
+    .navbar {
+        background: none;
+    }
+    .navbar-toggler {
+        color: red;
+    }
+    .nav-link {
+        color: black;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption {
+        position: absolute;
+        top: 32%;
+        left: 15%;
+        right: 15%;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 200%;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+        font-size: 110%;
+    }
+    .flooring .title h2 {
+        font-size: 22px;
+    }
+    .flooring .title .line {
+        width: 15%;
+    }
+    .flooring .title p {
+        font-size: 14.5px;
+    }
+    .flooring .row .col {
+        position: relative;
+        margin-bottom: 5%;
+    }
+    .flooring .row .col:last-child {
+        margin-bottom: 0%;
+    }
+    .flooring .row .col .btn {
+        position: absolute;
+        top: 50%;
+        left: 23%;
+        right: 23%;
+        width: 50%;
+        font-size: 90%;
+    }
+    .products .title h2 {
+        font-size: 22px;
+    }
+    .products .title .line {
+        width: 15%;
+    }
+    .products .row .thumb-wrapper .img-box {
+        position: relative;
+    }
+    .products .row .thumb-wrapper .img-box>.btn {
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        right: 35%;
+        padding: 3%;
+        font-size: 45%;
+    }
+    .products .row .thumb-wrapper p {
+        font-size: 75%;
+    }
+    .sale h2 {
+        font-size: 22px;
+    }
+    .sale .line {
+        width: 15%;
+    }
+    .sale p {
+        font-size: 14.5px;
+    }
+    .gallery>.title h2 {
+        font-size: 22px;
+    }
+    .gallery>.title .line {
+        width: 15%;
+    }
+    .gallery>.title p {
+        font-size: 14.5px;
+    }
+    .gallery>.row .title p {
+        font-size: 15px;
+    }
+    .gallery>.row .title .btn {
+        font-size: 10px;
+    }
+    .gallery>.row .col {
+        margin-bottom: 10px;
+    }
+    .gallery>.row .col:last-child {
+        margin-bottom: 0%;
+    }
+    .testimonials .title h2 {
+        font-size: 22px;
+    }
+    .testimonials .title .line {
+        width: 15%;
+    }
+    .testimonials .carousel .distance .information p {
+        font-size: 14px;
+    }
+    .shopping h2 {
+        font-size: 22px;
+    }
+    .shopping .line {
+        width: 15%;
+    }
+    .shopping p {
+        font-size: 14.5px;
+    }
+    .shopping .btn {
+        font-size: 10px;
+    }
+    .brands .title h2 {
+        font-size: 22px;
+    }
+    .brands .title .line {
+        width: 15%;
+    }
+    .brands .title p {
+        font-size: 14.5px;
+    }
+    .brands .container img {
+        width: 100%;
+    }
+    .footer .icon-social a {
+        font-size: 20px;
+    }
+    .footer .payment a {
+        font-size: 20px;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media only screen and (min-width:768px) and (max-width: 991.98px) {
+    .header .contact i {
+        font-size: 75%;
+    }
+    .header .contact a {
+        font-size: 75%;
+    }
+    .header .discount p {
+        font-size: 75%;
+    }
+    .header .checkout a {
+        font-size: 75%;
+    }
+    .logo img {
+        width: 150%;
+        display: block;
+        margin: 0 auto;
+    }
+    .become {
+        display: none;
+    }
+    .navbar {
+        background: none;
+    }
+    .navbar-toggler {
+        color: red;
+    }
+    .nav-link {
+        color: black;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption {
+        position: absolute;
+        top: 32%;
+        left: 15%;
+        right: 15%;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 265%;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+        font-size: 145%;
+    }
+    .flooring .title .line {
+        width: 10%;
+    }
+    .flooring .row .col {
+        position: relative;
+    }
+    .flooring .row .col .btn {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        right: 25%;
+        font-size: 25%;
+    }
+    .products .title .line {
+        width: 10%;
+    }
+    .products .row .thumb-wrapper .img-box {
+        position: relative;
+    }
+    .products .row .thumb-wrapper .img-box>.btn {
+        position: absolute;
+        top: 45%;
+        left: 27%;
+        right: 27%;
+        padding: 4%;
+        font-size: 35%;
+    }
+    .products .row .thumb-wrapper p {
+        font-size: 40%;
+    }
+    .sale .line {
+        width: 10%;
+    }
+    .sale .btn {
+        font-size: 10px;
+    }
+    .gallery>.title .line {
+        width: 10%;
+    }
+    .gallery>.row .title p {
+        font-size: 15px;
+    }
+    .gallery>.row .title .btn {
+        font-size: 10px;
+    }
+    .testimonials .title .line {
+        width: 10%;
+    }
+    .testimonials .carousel .distance .left,
+    .testimonials .carousel .distance .right {
+        display: none;
+    }
+    .shopping .line {
+        width: 10%;
+    }
+    .shopping .btn {
+        font-size: 10px;
+    }
+    .brands .title .line {
+        width: 10%;
+    }
+    .brands .container img {
+        width: 70%;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media only screen and (min-width:992px) and (max-width: 1199.98px) {
+    .logo img {
+        width: 30%;
+    }
+    .navbar .collapse .navbar-nav .nav-item .nav-link {
+        font-size: 52%;
+    }
+    .become {
+        font-size: 52%;
+        padding: 15px;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption {
+        position: absolute;
+        top: 33%;
+        left: 15%;
+        right: 15%;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 310%;
+    }
+    .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+        font-size: 175%;
+    }
+    .flooring .row .col {
+        position: relative;
+    }
+    .flooring .row .col .btn {
+        position: absolute;
+        top: 50%;
+        left: 23%;
+        width: 50%;
+        font-size: 45%;
+    }
+    .products .row .thumb-wrapper .img-box {
+        position: relative;
+    }
+    .products .row .thumb-wrapper .img-box>.btn {
+        position: absolute;
+        top: 45%;
+        left: 27%;
+        width: 43%;
+        font-size: 50%;
+    }
+    .products .row .thumb-wrapper p {
+        font-size: 60%;
+    }
+    .brands .container img {
+        width: 70%;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media only screen and (min-width:1200px) {
+    .logo img {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .navbar .collapse .navbar-nav .nav-item .nav-link {
+        font-size: 79%;
+    }
+    .become {
+        padding: 1%;
+        font-size: 82%;
+    }
+    .flooring .row .col {
+        position: relative;
+    }
+    .flooring .row .col .btn {
+        position: absolute;
+        top: 50%;
+        left: 23%;
+        width: 50%;
+        font-size: 62%;
+    }
+    .products .row .thumb-wrapper p {
+        font-size: 80%;
+    }
+    .brands .container img {
+        width: 100%;
+    }
+}
